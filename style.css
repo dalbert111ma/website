@@ -60,7 +60,7 @@ a:hover { color: #134478; text-decoration: underline; }
   padding-bottom: 10px;
   border-bottom: 1px solid #e3e6ea;
 }
-.body { margin: 0; font-size: 16px; line-height: 1.65; }
+.body { margin: 0; font-size: 15px; line-height: 1.65; }
 .body-sm { margin: 0; font-size: 15px; line-height: 1.65; }
 .label { font-weight: 600; }
 .meta { margin: 0; font-size: 14px; line-height: 1.5; color: #5b6470; }
@@ -96,5 +96,5 @@ a:hover { color: #134478; text-decoration: underline; }
 /* Phones */
 @media (max-width: 640px) {
   .wrap { padding: 32px 20px; gap: 32px; }
-  .sidebar { max-width: none; }
+  .sidebar { max-width: none; display: grid; grid-template-columns: 88px 1fr; column-gap: 16px; row-gap: 10px; align-items: center; } .photo { width: 88px; height: 88px; } .identity { gap: 4px; } .name { font-size: 22px; } .side-block { grid-column: 1 / -1; flex-direction: row; flex-wrap: wrap; column-gap: 22px; padding-top: 2px; } .nav-link, .contact-link { min-height: 40px; }
 }
